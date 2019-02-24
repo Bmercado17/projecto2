@@ -1,26 +1,25 @@
 Projecto2
 
-episodesproject working with github for a few weeks now, getting very familiar with it.
+epicodus project, working with github for a few weeks now, getting very familiar with it.
 
 {Projecto2}
 
-_{This is an example website with three links to other projects I worked on} {02/26/19}
+_{This is an example website with three links to adult services for vacation (although we advertise it as a family friendly, we want to make aware the customer, that the activities might implicate some dangerous activities) I worked on this project, and tried to finalize it by {02/26/19} 
 
-By {For this 8th week project I worked on it my self, without a pair}
+{For this 8th week project I worked on it my self, without a pair as a solo project is required}
 
-This project is a small website dedicated to sell fun packages to adults, the site requires you to enter youir age at the begining of the page. As well as where I come from, and how I got into computers and technology in general.
-
-_{this application/webpage contains three links to three deifferent packages of entertainment, I have worked on this as a student at epicodus.}
+This project is a small website dedicated to sell fun packages to adults, the site requires you to enter youir age at the begining of the page. 
+_{this application/webpage contains three links to three different packages of entertainment, I have worked on this as a student at epicodus.}
 
 Setup/Installation Requirements.
 
 _Scroll down to the mid area of the page.
 _There are three links with to videos of the activities we offer.
 _First link will take you to the cenote package we offer.
-_Second link will take you to a snorkling short video of the second package we offer.
-_Third link will take you to the motorcycle package that the package is offering (all of the packages are meant for adults) that is the reason the webpage enquires your age in the begining.
+_Second link will take you to a snorkeling short video of the second package we offer.
+_Third link will take you to the motorcycle package. All of the packages are meant for adults, which is the reason the webpage enquires your age in the begining.
 
-_{The site is simple on this stage of development. Not known bugs have surface, other than running java.script and jquery, no bugs have surface yet}
+_{The site is simple on this stage of development. Not known bugs have surfaced, other than running java.script and jquery, no bugs have surface yet with this two programs I applied}
 
 Support and contact details
 
@@ -28,7 +27,7 @@ _{If any issues arise while navigating the site, you can try to view it on a dif
 
 Technologies Used
 
-_{The language I used to create this site is HTML "Hyper Text Markup Language" I used CSS and Bootstrap to style the site and also implememted java.script and jquery.
+_{The language I used to create this site is HTML "Hyper Text Markup Language" I used CSS and Bootstrap to style the site and also I implememted java.script and jquery.
 
 License
 
