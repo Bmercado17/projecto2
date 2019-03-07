@@ -1,146 +1,149 @@
-body  { 
-    margin-left:10px;
-    background-color: aquamarine;
+body {
+  margin-left: 10px;
+  background-color: aquamarine;
 }
-#background, #under21 {
-    display: none;
+#background,
+#under21 {
+  display: none;
 }
 #background {
-    width:100%;
-    height:100%;
-    background-size:cover;
-    margin-left:-3px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  margin-left: -3px;
 }
 h4 {
-    color:red;
+  color: red;
 }
 
 @media only screen and (max-width: 480px) {
-    background-color: oldlace;
+  background-color: oldlace;
 }
 .cenote img {
-    width: 1300px;
-    margin-bottom: 3px;
-    border: solid gray;
-    display:block;
-    position: relative;
-    margin-left: 12px;
+  width: 1300px;
+  margin-bottom: 3px;
+  border: solid black;
+  display: block;
+  position: relative;
+  margin-left: 12px;
 }
 .container img {
-    width: 1300px;
-    margin-bottom: 3px;
-    border: solid gray;
-    display:block;
-    position: relative;
-    image-rendering: pixelated;
+  width: 1300px;
+  margin-bottom: 3px;
+  border: solid black;
+  display: block;
+  position: relative;
+  image-rendering: pixelated;
 }
 .secondimage img {
-    width: 1300px;
-    margin-bottom: 3px;
-    border: solid gray;
-    display:block;
-    margin-left:14px;
+  width: 1300px;
+  margin-bottom: 3px;
+  border: solid black;
+  display: block;
+  margin-left: 14px;
 }
 #titulo {
-    margin-left: 5px;
-    text-align: center;
-    text-shadow: 2px 5px gold;
+  margin-left: 5px;
+  text-align: center;
+  text-shadow: 2px 5px gold;
 }
 .tablemenu {
-    
-    color: rgb(243, 216, 65);
-
+  color: rgb(243, 216, 65);
 }
 #menu {
-   color: gray;
+  color: gray;
 }
-input[type="inputFile"] { 
-    float:right;
-
+input[type="inputFile"] {
+  float: right;
 }
 input[type="email"] {
-    width: 40%;
-    display:block;
-    box-sizing: border-box;
-    padding: 0 10px;
-    border: 2px solid #ccc;
-    background-color: white;
+  width: 40%;
+  display: block;
+  box-sizing: border-box;
+  padding: 0 10px;
+  border: 2px solid #ccc;
+  background-color: white;
 }
 input[type="password"] {
-    width: 40%;
-    display:block;
-    box-sizing: border-box;
-    padding: 0 10px;
-    border: 2px solid #ccc;
-    background-color: white;
+  width: 40%;
+  display: block;
+  box-sizing: border-box;
+  padding: 0 10px;
+  border: 2px solid #ccc;
+  background-color: white;
 }
 #exampleInputFile[type="File"] {
-    border: .5px solid #ccc;
-    display: block;
-    padding: 6px 12px;
-    cursor: pointer;
-    width:40%;
-    background-color:white;
-    text-indent: 9999px;
+  border: 0.5px solid #ccc;
+  display: block;
+  padding: 6px 12px;
+  cursor: pointer;
+  width: 40%;
+  background-color: white;
+  text-indent: 9999px;
 }
-.activities {  
-    margin: none;
-    color: black;
-    font-size: 18px;
-    font-family: cursive;
-
+.activities {
+  margin: none;
+  color: black;
+  font-size: 18px;
+  font-family: cursive;
 }
-.senote1 {
-    margin-top: 2px;
-    color: rgb(174, 65, 225);
-    font-size: 18px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.maincontent h2 {
-    text-align: center;
-    position: relative;
-    
+.cenote1 {
+  margin-top: 2px;
+  color: rgb(174, 65, 225);
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .maincontent h2 {
-    text-align: center;
+  text-align: center;
+  position: relative;
+}
+.maincontent h2 {
+  text-align: center;
 }
 .snorkeling1 {
-    margin-top: 2px;
-    color: rgb(174, 65, 225);
-    font-size: 18px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 2px;
+  color: rgb(174, 65, 225);
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .rides1 {
-    margin-top:2px;
-    color: rgb(174, 65, 225);
-    font-size: 18px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 2px;
+  color: rgb(174, 65, 225);
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .price-info {
-      text-align: center;
-      float: right;
-      margin-right: 120px;
-      margin-top: -130px;
-      width:40%;
-      border: 1px solid black;
-      border-collapse: collapse;     
+  text-align: center;
+  float: right;
+  margin-right: 120px;
+  margin-top: -130px;
+  width: 40%;
+  border: 1px solid black;
+  border-collapse: collapse;
 }
 .clearfix::after {
-    content: "";
-    clear: both;
-    display: block;
-  }
+  content: "";
+  clear: both;
+  display: block;
+}
 table th {
-      text-align: center;
-  }
-table th, td {
-      text-align: left;
-  }
+  text-align: center;
+  background-color: gray;
+}
+table td {
+  background-color: beige;
+}
+table th,
+td {
+  text-align: left;
+}
 .container {
-      float:left;
-  }
+  float: left;
+}
 
-
-
-
+#cenote,
+#quads,
+#snorkeling {
+  display: none;
+}

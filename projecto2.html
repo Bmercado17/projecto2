@@ -1,124 +1,124 @@
 <DOCTYPE! html>
-    <meta charset="UTF-8">
-    <html>
+  <meta charset="UTF-8" />
+  <html>
     <head>
-            <title>Epicodus Project2</title>
-            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-            <link rel="stylesheet" href="css/screen.css">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
+      <title>Epicodus Project2</title>
+      <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous"
+      />
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"
+      ></script>
+      <link rel="stylesheet" href="css/screen.css" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"
+      ></script>
     </head>
+
     <body>
+      <div id="wrap" class="container-fluid">
+        <div id="hero" class="row">
+          <div class="col-12">
+            <img src="images/movingwater.gif" id="background" />
+            <h4 id="under21">Sorry you can't swim this waters</h4>
+          </div>
+        </div>
 
-        <div id="wrap" class="container-fluid">
+        <div id="content" class="row">
+          <div class="col-12">
+            <h1 id="titulo">Project2 Epicodus</h1>
 
-            <div id="hero" class="row">
-                <div class="col-12">
-                    <img src="images/movingwater.gif" id="background"/>
-                    <h4 id="under21">Sorry you can't swim this waters</h4>
-                </div>
+            <div class="row tablemenu">
+              <div class="col-12">
+                <h2 id="menu">Available Activities</h2>
+                <h5 class="activities">Activities for the whole family:</h5>
+                <h5>
+                  To maximize the fun for you and your family, we fix you with
+                  the best possible package based on the days you are staying
+                  with us.
+                </h5>
+              </div>
             </div>
 
-            <div id="content" class="row">
-                <div class="col-12">
-                    <h1 id="titulo">Project2 Epicodus</h1>
-                
-                    <div class="row tablemenu">
-                        <div class="col-12">
-                            <h2 id="menu">Available Activities</h2>
-                            <h5 class="activities">Activities for the whole family:</h5>
-                            <h5>To maximize the fun for you and your family, we fix you with the best possible package based on the days you are staying with us.</h5>
-                        </div>
+            <div class="row maincontent">
+              <div class="col-12">
+                <h2>
+                  Our company specialices in fun activities as well as hotel and
+                  resort accomodations, please let us know how we can help.
+                </h2>
+
+                <h1>Tell us what type of activities you enjoy</h1>
+                <div id="blanks">
+                  <form name="questions" id="vacation-form">
+                    <div class="form-group">
+                      <label for="person1">Your name here please</label>
+                      <input id="person1" class="form-control" type="text" />
+                    </div>
+                    <div class="form-group">
+                      <label for="daysvacation"
+                        >How many days would you want to stay with us?</label
+                      >
+                      <!--<input id="daysvacation" name="daysvacation" class="form-control" type="text">-->
+                      <select id="daysvacation" name="daysvacation">
+                        <option value="">Select Range of Days</option>
+                        <option value="images/snorkeling.jpg">1-3</option>
+                        <option value="images/cenote.jpg">4-7</option>
+                        <option value="images/quads.jpg">8-12</option>
+                      </select>
+                      <div class="showImage"></div>
+                    </div>
+                    <div class="form-group">
+                      <label for="aqua-activity"
+                        >Do you like water activities?</label
+                      >
+                      <input
+                        id="aqua-activity"
+                        class="form-control"
+                        type="text"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label for="dry-activities"
+                        >Do you prefer to stay dry and enjoy land activities?
+                      </label>
+                      <input
+                        id="dry-activities"
+                        class="form-control"
+                        type="text"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label for="total-people"
+                        >How many people are accompaning you?</label
+                      >
+                      <input
+                        id="totalpeople"
+                        class="form-control"
+                        type="text"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label for="question1"
+                        >Are you prepared for a vacation of a life time?</label
+                      >
+                      <input id="question1" class="form-control" type="text" />
                     </div>
 
-                    <div class="row">
-                        <div class="col-6 senote1"> 
-                            <h1>        
-                                Cenote sighting is one of our most popular activities:
-                            </h1>    
-                                <p>The cenote sighting is one our most popular adventure activity, it will put you in touch with <em>nature</em> and everything else the cenotes have to offer.</p> 
-                                <p>Enjoy this short video of one of our excursions <a href="https://www.youtube.com/watch?v=3NcdGLZZOLk">PRESS FOR VIDEO</a> snorkeling gear is provided for deluxed package carriers.</p>  
-                        </div>           
-                        <div class="col-6">
-                            <img  id="snorkeling" src="images/snorkeling.jpg" alt="en mexico esto es la riviera maya" width="80%" height="45%">
-                        </div>
-                    </div>
+                    <button type="submit" id="qsubmit" class="btn btn-primary">
+                      Show me my package!!!
+                    </button>
+                  </form>
+                </div>
 
-                    <div class="row">
-                        <div class="col-6 snorkeling1">
-                            <h1>
-                            <p>Snorkeling near the piramids (gear rented separate):</p>
-                            </h1>
-                            <p>Snorkeling around the pyramids is a team/family activity. The family works together to find hidden gems (later cash for prices) while enjoying the underwater scenery.</p>
-                            <p>Why tell you about our snorkeling adventire, when we can show you with this short video <a href="https://www.youtube.com/watch?v=QF5ucgl1G28">ENJOY!! </a></p>
-                        </div>
-                        <div class="col-6">
-                            <img src="images/cenote.jpg" alt="en mexico esto es la riviera maya" width="80%" height="45%">  
-                        </div>
-                    </div>
-                        
-                        
-                    <div class="row">
-                        <div class="col-6 rides1">
-                            <h1>
-                            <p>Quad rides through the jungle and cenote snorkeling for kids:</p>
-                            </h1>
-                            <p>Riding on off-terrain motorcycles couldnt be more fun and safe, our team will take you throught the jungle for sight seeing and some pretty cool animal close experiences.</p>
-                            <p>Enjoy this short film of our ATV package and Zip-line, all gear for the ATV is provided by us all you have to do is <a href="https://www.youtube.com/watch?v=SP1w3Gm-WJI"> ENJOY!! </a></p>
-                        </div>
-                        <div class="col-6">
-                            <img src="images/quads.jpg" alt="en mexico la riviera maya" width="80%" height="45%">
-                        </div>
-                    </div>               
-
-                    <div class="row maincontent">
-                        <div class="col-12">
-                            <h2>Our company specialices in fun activities as well as hotel and resort accomodations, please let us know how we can help.</h2>
-                        
-                            <h1>Tell us what type of activities you enjoy</h1>
-                            <div id="blanks">
-                                <form name="questions">
-                                <div class="form-group">
-                                    <label for="person1">Your name here please</label>
-                                    <input id="person1" class="form-control" type="text">
-                                </div>
-                                <div class="form-group">
-                                    <label for="daysvacation">How many days would you want to stay with us?</label>
-                                    <!--<input id="daysvacation" name="daysvacation" class="form-control" type="text">-->
-                                    <select id="daysvacation" name="daysvacation">
-                                            <option value="">Select Range of Days</option>
-                                            <option value="images/snorkeling.jpg">1-3</option>
-                                            <option value="images/cenote.jpg">4-7</option>
-                                            <option value="images/quads.jpg">8-12</option>
-                                    </select>
-                                    <div class="showImage"></div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="aqua-activity">Do you like water activities?</label>
-                                    <input id="aqua-activity" class="form-control" type="text">
-                                </div>
-                                <div class="form-group">
-                                    <label for="dry-activities">Do you prefer to stay dry and enjoy land activities?</label>
-                                    <input id="dry-activities" class="form-control" type="text">
-                                </div>
-                                <div class="form-group">
-                                    <label for="total-people">How many people are accompaning you?</label>
-                                    <input id="totalpeople" class="form-control" type="text">
-                                </div>
-                                <div class="form-group">
-                                    <label for="question1">Are you prepared for a vacation of a life time?</label>
-                                    <input id="question1" class="form-control" type="text">
-                                </div>
-                        
-                                <button type="submit" id="qsubmit" class="btn btn-primary">Show me my package!!!</button>
-                                </form>
-                            </div>
-                        
-                            <form>
+                <!-- <form>
                                 <div class="form-group">
                                 <label for="exampleInputEmail1">Email address</label>
                                 <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
@@ -137,11 +137,108 @@
                                 </label>
                                 </div>
                                 <button type="submit" class="btn btn-default">Submit</button>
-                            </form>
-                        </div>
-                    </div>
-            
-                    <div class="row price-info">
+                            </form> -->
+              </div>
+            </div>
+
+            <div class="row" id="cenote">
+              <div class="col-6 cenote1">
+                <h1>
+                  Cenote sighting is one of our most popular activities:
+                </h1>
+                <p>
+                  The cenote sighting is one our most popular adventure
+                  activity, it will put you in touch with
+                  <em>nature</em> and everything else the cenotes have to offer.
+                  <span style="color:gray"
+                    >THIS PACKAGE IS RECOMMENDED FOR 4 AND UPTO 7 PEOPLE.</span
+                  >
+                </p>
+                <p>
+                  Enjoy this short video of one of our excursions
+                  <a href="https://www.youtube.com/watch?v=3NcdGLZZOLk"
+                    >PRESS FOR VIDEO</a
+                  >
+                  snorkeling gear is provided for deluxed package carriers.
+                </p>
+              </div>
+              <div class="col-6">
+                <img
+                  src="images/cenote.jpg"
+                  alt="en mexico esto es la riviera maya"
+                  width="80%"
+                  height="45%"
+                />
+              </div>
+            </div>
+
+            <div class="row" id="snorkeling">
+              <div class="col-6 snorkeling1">
+                <h1>
+                  <p>Snorkeling near the piramids (gear rented separate):</p>
+                </h1>
+                <p>
+                  Snorkeling around the pyramids is a team/family activity. The
+                  family works together to find hidden gems (later cash for
+                  prices) while enjoying the underwater scenery.
+
+                  <span style="color:gray"
+                    >THIS PACKAGE IS RECOMMENDED FOR 3 OR FEWER THAN 3 PEOPLE.
+                  </span>
+                </p>
+                <p>
+                  Why tell you about our snorkeling adventire, when we can show
+                  you with this short video
+                  <a href="https://www.youtube.com/watch?v=QF5ucgl1G28"
+                    >ENJOY!!
+                  </a>
+                </p>
+              </div>
+              <div class="col-6">
+                <img
+                  src="images/snorkeling.jpg"
+                  alt="en mexico esto es la riviera maya"
+                  width="80%"
+                  height="45%"
+                />
+              </div>
+            </div>
+
+            <div class="row" id="quads">
+              <div class="col-6 rides1">
+                <h1>
+                  <p>
+                    Quad rides through the jungle and cenote snorkeling for
+                    kids:
+                  </p>
+                </h1>
+                <p>
+                  Riding on off-terrain motorcycles couldnt be more fun and
+                  safe, our team will take you throught the jungle for sight
+                  seeing and some pretty cool animal close experiences.
+                  <span style="color:gray"
+                    >THIS PACKAGE IS RECOMMENDED FOR 8 AND MORE PEOPLE.
+                  </span>
+                </p>
+                <p>
+                  Enjoy this short film of our ATV package and Zip-line, all
+                  gear for the ATV is provided by us all you have to do is
+                  <a href="https://www.youtube.com/watch?v=SP1w3Gm-WJI">
+                    ENJOY!!
+                  </a>
+                </p>
+              </div>
+              <div class="col-6">
+                <img
+                  src="images/quads.jpg"
+                  alt="en mexico la riviera maya"
+                  width="80%"
+                  height="45%"
+                />
+              </div>
+            </div>
+
+            <!-- <div class="row price-info">
                         <div class="col-12">
                             <table> 
                                 <tr> 
@@ -162,14 +259,12 @@
                                     </tr> 
                             </table>
                         </div>
-                    </div>
-                
-                </div>
-            </div>
-
+                    </div> -->
+          </div>
         </div>
+      </div>
 
-    <script src="scripts.js"></script>
-  </body>
-</html>
-    
+      <script src="scripts.js"></script>
+    </body>
+  </html>
+</DOCTYPE!>
